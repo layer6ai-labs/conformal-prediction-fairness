@@ -5,7 +5,7 @@
 # Fairness of Conformal Prediction
 This is the codebase accompanying the paper ["Conformal Prediction Sets Can Cause Disparate Impact"](https://arxiv.org/abs/2410.01888). 
 
-## Environement Setup
+## Environment Setup
 
 The main prerequisite is to set up the python environment.
 
