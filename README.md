@@ -1,5 +1,9 @@
-# conformal-prediction-fairness
-This is the codebase accompanying the paper ["Conformal Prediction Sets Cause Disparate Impact"](https://arxiv.org/abs/2410.01888). 
+<p align="center">
+<a href="https://layer6.ai/"><img src="https://github.com/layer6ai-labs/DropoutNet/blob/master/logs/logobox.jpg" width="180"></a>
+</p>
+
+# Fairness of Conformal Prediction
+This is the codebase accompanying the paper ["Conformal Prediction Sets Can Cause Disparate Impact"](https://arxiv.org/abs/2410.01888). 
 
 ## Environement Setup
 
@@ -9,19 +13,19 @@ The main prerequisite is to set up the python environment.
     conda activate conformal
 
 ## Dataset
-We have implemented `fashion-mnist`, `bios`, `facet`, and `ravdess`. To prepare the datasets:
+We have implemented `fashion-mnist`, `bios`, `ravdess`, and `facet`. To prepare the datasets:
 
     mkdir data
     cd data
     mkdir BiosBias
-    mkdir facet
     mkdir RAVDESS
+    mkdir facet
 
-For "bios", we preprocessed the BiosBias data from [this repo](https://github.com/shauli-ravfogel/nullspace_projection) by encoding it with [bert-uncased model](https://huggingface.co/google-bert/bert-base-uncased). The data pkl files can be downloaded from [Google drive](https://drive.google.com/drive/folders/1TW6lFZCxuUPzy3A42_MSfHEWSwRP9zYP?usp=drive_link). After downloading, put it in [data/BiosBias](data/BiosBias).
+For `bios`, we preprocessed the BiosBias data from [this repo](https://github.com/shauli-ravfogel/nullspace_projection) by encoding it with [bert-uncased model](https://huggingface.co/google-bert/bert-base-uncased). The data pkl files can be downloaded from [Google drive](https://drive.google.com/drive/folders/1TW6lFZCxuUPzy3A42_MSfHEWSwRP9zYP?usp=drive_link). After downloading, put it inside [data/BiosBias](data/BiosBias).
 
-For "ravdess", For FACET, please download the dataset [here](https://zenodo.org/records/1188976) and put inside [data/RAVDESS](data/RAVDESS)
+For `ravdess`, please download the dataset [here](https://zenodo.org/records/1188976) and put it inside [data/RAVDESS](data/RAVDESS).
 
-For FACET, please download the dataset [here](https://facet.metademolab.com/), unzip, and put inside [data/facet](data/facet) with a folder structure:
+For `facet`, please download the dataset [here](https://facet.metademolab.com/), unzip, and put it inside [data/facet](data/facet) with a folder structure:
 
     --images/
         ----imgs_1/
