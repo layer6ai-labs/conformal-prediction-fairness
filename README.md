@@ -3,7 +3,7 @@
 </p>
 
 # Fairness of Conformal Prediction
-This is the codebase accompanying the paper ["Conformal Prediction Sets Can Cause Disparate Impact"](https://arxiv.org/abs/2410.01888). 
+This is the codebase accompanying the paper ["Conformal Prediction Sets Can Cause Disparate Impact"](https://openreview.net/forum?id=fZK6AQXlUU), accepted as a Spotlight paper to ICLR 2025.
 
 ## Environment Setup
 
@@ -65,14 +65,12 @@ By default, the `main` command above will create a directory of the form `logs/<
 
 # Citing
 
-    @article{cresswell2024conformal,
-        title={Conformal Prediction Sets Can Cause Disparate Impact}, 
+    @inproceedings{cresswell2025conformal,
+        title={Conformal Prediction Sets Can Cause Disparate Impact},
         author={Jesse C. Cresswell and Bhargava Kumar and Yi Sui and Mouloud Belbahri},
-        year={2024},
-        eprint={2410.01888},
-        archivePrefix={arXiv},
-        primaryClass={cs.LG},
-        url={https://arxiv.org/abs/2410.01888}, 
+        booktitle={The Thirteenth International Conference on Learning Representations},
+        year={2025},
+        url={https://openreview.net/forum?id=fZK6AQXlUU}
     }
 
 # License
